@@ -1,0 +1,176 @@
+.row-col1 {
+    width: 20%;
+    float: left;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+
+}
+
+.aslide {
+    width: 100%;
+}
+
+.aslide ul li a {
+    font-size: larger;
+    text-decoration: none;
+    margin: 15px;
+    padding: 5px;
+    color: black;
+}
+
+.aslide ul li :hover {
+    color: palevioletred;
+}
+
+.aslide ul li {
+    list-style-type: none;
+    margin: 13px;
+    border-bottom: 1px solid black;
+}
+
+.dmsp h4 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 25px;
+    padding: 5px;
+}
+.menu22 {
+    margin-top: 25px;
+    gap: 15px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.menu-sp {
+    margin-top: 25px;
+    gap: 15px;
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: white; */
+}
+
+.menu-sp :hover .shop {
+    visibility: visible;
+    opacity: 100;
+}
+
+.menu1 {
+    width: 23%;
+    min-height: 350px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.menu1>.ten {
+    display: flex;
+    cursor: pointer;
+    margin-left: 26px;
+    margin-top: 5px;
+}
+
+.menu1>.ten :hover {
+    color: rgb(0, 204, 235);
+}
+
+.menu1 img {
+    margin-top: 25px;
+    width: 80%;
+    height: 195px;
+    transition: 0.4s;
+    background-color: whitesmoke;
+}
+
+.menu1>.img img:hover {
+    transform: translateY(-10px) rotate(0deg);
+    transition: 0.6s;
+    border: 1px black;
+    -webkit-box-shadow: 0px 0px 10px 50px rgba(50, 50, 52, 0.62);
+    -moz-box-shadow: 0px 0px 10px 50px rgba(50, 50, 52, 0.62);
+    box-shadow: 0px 0px 5px 5px rgba(50, 50, 52, 0.62);
+}
+
+.menu1>.img>p {
+    display: flex;
+    margin-left: 5px;
+    color: #CCC;
+    transition: 0.4s;
+}
+
+.menu1>input {
+    width: 8%;
+}
+
+.menu1>.gia {
+    font-size: 18px;
+    display: flex;
+    margin-left: 26px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.shop {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.shop a {
+    text-decoration: none;
+    display: flex;
+    margin-left: 26px;
+}
+
+.shop a button {
+    width: 55%;
+    height: 25px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.shop button:hover {
+    color: white;
+    background-color: black;
+}
+
+.menu1 :hover .shop {
+    margin-top: -25px;
+}
+/* button:hover{
+    margin-top: -250px;
+} */
+
+.ngang {
+    color: rgb(0, 0, 0);
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li a {
+    color: #ccc;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons li a:hover {
+    color: #fff;
+}
+.fa {
+    float: left;
+    font-size: 20px;
+}

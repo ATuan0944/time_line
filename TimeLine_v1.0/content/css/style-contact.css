@@ -1,0 +1,301 @@
+/* General Styles */
+.inputbox i {
+  position: absolute;
+  right: 8px;
+  color: black;
+  font-size: 1.2rem;
+  top: 20px;
+}
+
+
+.nav-links {
+
+  list-style: none;
+  display: flex;
+  gap: 45px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  font-weight: 550;
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.5s;
+}
+
+.nav-links a:hover {
+  color: #f9a825;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 10px;
+  color: white;
+}
+
+.nav input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.login-form {
+  margin-top: 4%;
+  position: relative;
+  background-color: white;
+  padding: 30px 100px 100px 100px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  width: 800px;
+  text-align: center;
+}
+
+
+.form-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+  color: #257c25;
+}
+
+.form-header h2 {
+  font-size: 20px;
+}
+
+.header-option__input {
+  padding: 5px 40px 5px 10px;
+  border-radius: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  background: #00b300;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  right: 0px;
+  top: 0px;
+  border-radius: 0px 10px 0px 10px;
+
+}
+
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form .form-login__input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-color: transparent transparent #00b300 transparent;
+  border: bottom style 2px;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.form-login__group-action {
+  position: relative;
+  width: 600px;
+}
+
+.form-login__btn-action {
+  padding: 10px 70px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid #008a00;
+}
+
+.form-login__btn-action span {
+  color: #008a00;
+  font-size: 17px;
+}
+
+form .form-login__input#note {
+  border: 2px solid #008a00;
+  padding-bottom: 100px;
+  white-space: unset;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+form .form-login__input#note::placeholder {
+  color: #008a00;
+}
+
+.form-login_icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-52%);
+}
+
+.form-login__input-text {
+  position: absolute;
+  top: 0px;
+  left: 12px;
+  font-size: 13px;
+  color: #2d7b2d;
+  transition: transform 0.5s;
+
+}
+
+.form-login__group-action input:focus~.form-login__input-text {
+  transform: translateY(-20px);
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #00b300;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #008a00;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+
+/* Đăng Kí */
+
+
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-color: transparent transparent #00b300 transparent;
+  border: bottom style 2px;
+}
+
+.form-login__group-action {
+  position: relative;
+}
+
+.form-login__email-text {
+  position: absolute;
+  top: 0px;
+  left: 12px;
+  font-size: 13px;
+  color: #2d7b2d;
+  transition: transform 0.5s;
+
+}
+
+.form-login__group-action input:focus~.form-login__email-text {
+  transform: translateY(-20px);
+}
+
+.form-login__action {
+  display: none;
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #00b300;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #008a00;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.product-news {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.product-news h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #2c2c2c;
+}
+
+.product-news .news-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
