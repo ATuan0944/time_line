@@ -9,6 +9,68 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../content/css/style.css">
+
+    <style> 
+       .container {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+             margin-top: 25px;
+            margin: 0 auto;
+             padding: 20px;
+        }
+        .warranty {
+            padding: 0px; 
+            width: 300px;
+            height:300px;
+            border-top-left-radius: 12px; 
+            border-top-right-radius: 12px; 
+            border: 1px solid #ccc; 
+        }
+
+            .warranty_top {
+               padding:10px;
+                background-color:#062462;
+                width: 100%;
+                height:50px ;
+                border-top-left-radius: 12px; 
+                border-top-right-radius: 12px; 
+                z-index: 8;
+            }
+            .warranty_top h2 {
+                display: flex ;
+                align-items: center;
+                gap:12px;
+                text-align: left;
+                color:#ffc700  ;
+                font-size:20px;
+                z-index: 9;
+            }
+            .warranty_bottom {
+                padding: 15px 15px 0px 15px;
+                display:flex ; 
+                gap:20px;
+            }
+            .warranty_bottom div {
+                width: 100%;
+                text-align: left;
+               
+            }
+            .warranty_bottom div p {
+                margin:0px; font-weight:600;
+             
+            }
+            .warranty_bottom div span {
+              
+               color:#76809B;
+             
+            }
+       
+
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -123,6 +185,59 @@
 
         </div>
         <div class="row">
+            <div class="col-md-12 text-center warranty">
+                    <div class="warranty_top">
+                    <h2>
+		                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+			            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+		                </svg>
+		                Chính sách hỗ trợ
+	                </h2>
+                    </div>  
+                    <div class="warranty_bottom">
+                        <figure>
+                        <img class="img-responsive lazyload loaded" src="//bizweb.dktcdn.net/100/517/497/themes/956320/assets/icon_policy_1.png?1730899091072" data-src="//bizweb.dktcdn.net/100/517/497/themes/956320/assets/icon_policy_1.png?1730899091072" alt="Cam kết 100%">
+                        </figure>
+                        <div>
+                            <p>
+					            Cam kết 100%
+				            </p>
+                            <span>
+					            Sản phẩm chính hãng								
+				            </span>
+                        </div>
+                    </div>
+                    <div class="warranty_bottom">
+                        <figure>
+                        <img class="img-responsive lazyload loaded" src="//bizweb.dktcdn.net/100/517/497/themes/956320/assets/icon_policy_2.png?1730899091072" data-src="//bizweb.dktcdn.net/100/517/497/themes/956320/assets/icon_policy_2.png?1730899091072" alt="Miễn phí giao hàng">
+                        </figure>
+                        <div>
+                            <p>
+					            Miễn phí giao hàng
+				            </p>
+                            <span>
+					            Theo chính sách						
+				            </span>
+                        </div>
+                    </div>
+                    <div class="warranty_bottom">
+                        <figure>
+                        <img class="img-responsive lazyload loaded" src="//bizweb.dktcdn.net/100/517/497/themes/956320/assets/icon_policy_1.png?1730899091072" data-src="//bizweb.dktcdn.net/100/517/497/themes/956320/assets/icon_policy_1.png?1730899091072" alt="Cam kết 100%">
+                        </figure>
+                        <div>
+                            <p>
+					            Đổi trả trong 7 ngày
+				            </p>
+                            <span>
+					            Kể từ ngày mua hàng					
+				            </span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10 text-center">
                 <br><br>
@@ -131,5 +246,3 @@
                 <?= $product_detail['MoTa'] ?>
             </div>
             <div class="col-md-1"></div>
-        </div>
-    </div>
